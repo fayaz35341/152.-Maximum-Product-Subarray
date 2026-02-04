@@ -32,5 +32,6 @@ var maxProduct = function(nums) {
         ans=Math.max(ans, presum , postsum)
     }
     return ans
+    // return ans === 0 ? 0 : ans;
     
 };
